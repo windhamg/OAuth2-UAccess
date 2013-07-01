@@ -18,6 +18,13 @@
 		4E0BBE071769206300867980 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E0BBE061769206300867980 /* Default-568h@2x.png */; };
 		4E0BBE0A1769206300867980 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0BBE081769206300867980 /* MainStoryboard.storyboard */; };
 		4E0BBE0D1769206300867980 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0BBE0C1769206300867980 /* ViewController.m */; };
+		4E0BBE141769208F00867980 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0BBE131769208F00867980 /* Security.framework */; };
+		4E0BBE16176920A000867980 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0BBE15176920A000867980 /* SystemConfiguration.framework */; };
+		4E0BBE1A1769210100867980 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0BBE191769210100867980 /* GTMHTTPFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4E0BBE1F1769213D00867980 /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0BBE1C1769213D00867980 /* GTMOAuth2Authentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4E0BBE201769213D00867980 /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0BBE1E1769213D00867980 /* GTMOAuth2SignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4E0BBE241769216000867980 /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0BBE221769216000867980 /* GTMOAuth2ViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4E0BBE251769216000867980 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E0BBE231769216000867980 /* GTMOAuth2ViewTouch.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,17 @@
 		4E0BBE091769206300867980 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4E0BBE0B1769206300867980 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4E0BBE0C1769206300867980 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E0BBE131769208F00867980 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4E0BBE15176920A000867980 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4E0BBE181769210100867980 /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		4E0BBE191769210100867980 /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		4E0BBE1B1769213D00867980 /* GTMOAuth2Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2Authentication.h; sourceTree = "<group>"; };
+		4E0BBE1C1769213D00867980 /* GTMOAuth2Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2Authentication.m; sourceTree = "<group>"; };
+		4E0BBE1D1769213D00867980 /* GTMOAuth2SignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2SignIn.h; sourceTree = "<group>"; };
+		4E0BBE1E1769213D00867980 /* GTMOAuth2SignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2SignIn.m; sourceTree = "<group>"; };
+		4E0BBE211769216000867980 /* GTMOAuth2ViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2ViewControllerTouch.h; sourceTree = "<group>"; };
+		4E0BBE221769216000867980 /* GTMOAuth2ViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2ViewControllerTouch.m; sourceTree = "<group>"; };
+		4E0BBE231769216000867980 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E0BBE16176920A000867980 /* SystemConfiguration.framework in Frameworks */,
+				4E0BBE141769208F00867980 /* Security.framework in Frameworks */,
 				4E0BBDF11769206300867980 /* UIKit.framework in Frameworks */,
 				4E0BBDF31769206300867980 /* Foundation.framework in Frameworks */,
 				4E0BBDF51769206300867980 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +76,7 @@
 		4E0BBDE41769206300867980 = {
 			isa = PBXGroup;
 			children = (
+				4E0BBE17176920D600867980 /* GTMOAuth2 */,
 				4E0BBDF61769206300867980 /* GTMOAuth2Demo */,
 				4E0BBDEF1769206300867980 /* Frameworks */,
 				4E0BBDEE1769206300867980 /* Products */,
@@ -73,6 +94,8 @@
 		4E0BBDEF1769206300867980 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E0BBE131769208F00867980 /* Security.framework */,
+				4E0BBE15176920A000867980 /* SystemConfiguration.framework */,
 				4E0BBDF01769206300867980 /* UIKit.framework */,
 				4E0BBDF21769206300867980 /* Foundation.framework */,
 				4E0BBDF41769206300867980 /* CoreGraphics.framework */,
@@ -105,6 +128,22 @@
 				4E0BBE061769206300867980 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E0BBE17176920D600867980 /* GTMOAuth2 */ = {
+			isa = PBXGroup;
+			children = (
+				4E0BBE211769216000867980 /* GTMOAuth2ViewControllerTouch.h */,
+				4E0BBE221769216000867980 /* GTMOAuth2ViewControllerTouch.m */,
+				4E0BBE231769216000867980 /* GTMOAuth2ViewTouch.xib */,
+				4E0BBE1B1769213D00867980 /* GTMOAuth2Authentication.h */,
+				4E0BBE1C1769213D00867980 /* GTMOAuth2Authentication.m */,
+				4E0BBE1D1769213D00867980 /* GTMOAuth2SignIn.h */,
+				4E0BBE1E1769213D00867980 /* GTMOAuth2SignIn.m */,
+				4E0BBE181769210100867980 /* GTMHTTPFetcher.h */,
+				4E0BBE191769210100867980 /* GTMHTTPFetcher.m */,
+			);
+			name = GTMOAuth2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +202,7 @@
 				4E0BBE051769206300867980 /* Default@2x.png in Resources */,
 				4E0BBE071769206300867980 /* Default-568h@2x.png in Resources */,
 				4E0BBE0A1769206300867980 /* MainStoryboard.storyboard in Resources */,
+				4E0BBE251769216000867980 /* GTMOAuth2ViewTouch.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +216,10 @@
 				4E0BBDFD1769206300867980 /* main.m in Sources */,
 				4E0BBE011769206300867980 /* AppDelegate.m in Sources */,
 				4E0BBE0D1769206300867980 /* ViewController.m in Sources */,
+				4E0BBE1A1769210100867980 /* GTMHTTPFetcher.m in Sources */,
+				4E0BBE1F1769213D00867980 /* GTMOAuth2Authentication.m in Sources */,
+				4E0BBE201769213D00867980 /* GTMOAuth2SignIn.m in Sources */,
+				4E0BBE241769216000867980 /* GTMOAuth2ViewControllerTouch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
