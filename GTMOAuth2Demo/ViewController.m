@@ -35,7 +35,7 @@
     // the server to redirect the web view to this URI, but this URI will not be
     // loaded, so it need not be for any actual web page. This needs to match the URI set as the
     // redirect URI when configuring the app with Instagram.
-    NSString * redirectURI = @"http://bogus-redirect-for-testiosnativeapp";
+    NSString * redirectURI = @"http://127.0.0.1/bogus-redirect-for-testiosnativeapp";
     GTMOAuth2Authentication * auth;
     auth = [GTMOAuth2Authentication authenticationWithServiceProvider:@"UA"
                                                              tokenURL:tokenURL
